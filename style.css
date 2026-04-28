@@ -1,0 +1,99 @@
+.img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; 
+} 
+.container-principal {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px; 
+    max-width: 1300px;
+    margin: 0 auto 20px auto;
+    align-items: stretch;
+}
+
+.esquerda {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.Centro {
+    flex: 2.5;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.direita {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.esquerda, .Centro, .direita {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+h2, h3 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f5cac2;
+    font-size: 0.9rem;
+}
+
+.contato-item {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; 
+} 
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.info-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* Ícones das habilidades */
+.skill-icon {
+  width: 24px;   /* tamanho pequeno */
+  height: 24px;
+  object-fit: contain;
+}
+
+/* Garantir que os itens da lista fiquem lado a lado e os ícones não grudem */
+.skills-list li {
+  display: inline-flex;  /* ou flex, tanto faz */
+  align-items: center;
+  margin-right: 5px;     /* espaço extra se necessário */
+}
+
