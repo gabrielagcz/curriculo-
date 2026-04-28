@@ -83,17 +83,14 @@ header div {
   object-fit: contain;
 }
 
-/* Ícones das habilidades */
 .skill-icon {
-  width: 24px;   /* tamanho pequeno */
+  width: 24px;   
   height: 24px;
   object-fit: contain;
 }
-
-/* Garantir que os itens da lista fiquem lado a lado e os ícones não grudem */
 .skills-list li {
-  display: inline-flex;  /* ou flex, tanto faz */
+  display: inline-flex; 
   align-items: center;
-  margin-right: 5px;     /* espaço extra se necessário */
+  margin-right: 5px;    
 }
 
